@@ -2,7 +2,7 @@
     "template": "<style>\n  .c-ckolor__wrapper {\n    border: 2px solid #76899e;\n    border-radius: 10px;  \n  \tpadding: 10px;\n  }\n  .vcenter {\n    display: inline-block;\n    vertical-align: middle;\n    float: none;\n\t}\n  .btn-responsive {\n    white-space: normal !important;\n    word-wrap: break-word;\n\t}\n  .myclass .c-ckolor__picker {\n    width: 15px !important;\n    height: 15px !important;\n    border-radius: 15px !important;\n\t}\n</style>\n\n<div class=\"\">\n  <div class=\"row\" >\n    <div class=\"col-12 col-md-8 vcenter\">\n      <b class=\"text-sm-left\">\n        {{ngModel.name}}\n      </b>\n    </div>\n\t\n  \n    <div class=\"col vcenter myclass\">\n      <div ng-init='hardcoded = {\"name\":\"\",\"item\": config.item_color,\"style\":\"aCKolor\"}' ></div>\n      <widget-colorpicker ng-model=\"hardcoded\"/>  \n    </div>\n\n    <div class=\"col vcenter\" ng-if=\"itemValue(config.item_switch,true)=='ON'\">\n      <button class=\"btn btn-lg active btn-success btn-responsive\" ng-click=\"sendCmd(config.item_switch, 'OFF')\">\n         {{itemValue(config.item_switch)}}\n      </button>\n    </div>\n\n    <div class=\"col vcenter\" ng-if=\"itemValue(config.item_switch,true)=='OFF' || itemValue(config.item_switch)=='UNDEF'\">\n      <button class=\"btn btn-lg btn-danger btn-responsive\" ng-click=\"sendCmd(config.item_switch, 'ON')\">\n        {{itemValue(config.item_switch)}}\n      </button>  \n    </div>\n    \n  </div>\n  \n</div>\n\n\n\n\n\n\n\n\n\n\n",
 	"name": "yeelight_control_widget",
     "author": "Dominik Claus",
-    "description": "Control you Yeelight with this Widget. You can choose a color and turn on / off a lamp"
+    "description": "Control you Yeelight with this Widget. You can choose a color and turn on / off a lamp",
     "settings": [
         {
             "type": "item",
@@ -16,6 +16,5 @@
             "label": "Yeelight Item Switch",
             "id": "item_switch"
         }
-    ],
-    
+    ]    
 }
