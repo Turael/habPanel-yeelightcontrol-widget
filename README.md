@@ -10,7 +10,7 @@ Example view for your dashboard (german language):<br/>
 <img src="images/show_widgetExample.png" width="500" alt="Widget example usage" title="Widget example usage">
 
 Example of the mobile view for your dashboard (german language):<br/>
-<img src="images/show_widgetExampleModile.jpg" width="500" height="200" alt="Widget mobile example usage" title="Widget mobile example usage">
+<img src="images/show_widgetExampleModile.jpg" width="200" height="250" alt="Widget mobile example usage" title="Widget mobile example usage">
 <br/>
 ## Features
 * Control your Xiaomi Yeelight (on/off)
@@ -27,11 +27,11 @@ and click the big green Import Widget button.
 
 There are three settings to use this widget:<br/>
 <br/>
-**Display name**<br/>
+**Display name:**<br/>
 Is used for the naming the yeelight in your home.<br/>
 <br/>
-**item_color**<br/>
+**item_color:**<br/>
 Its the item (type Color) to control the color of your yeelight.<br/>
 <br/>
-**item_switch**<br/>
+**item_switch:**<br/>
 Its the item (type Switch) to control the state of your yeelight.<br/>
