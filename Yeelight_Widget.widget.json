@@ -8,13 +8,14 @@
             "type": "item",
             "id": "item_color",
             "label": "Yeelight Item Color",
-            "default": "",
-            "description": "yeelightItem"
+            "description": "Your item to control the yeelight color (Color Item)"
         },
         {
             "type": "item",
             "label": "Yeelight Item Switch",
-            "id": "item_switch"
+            "id": "item_switch",
+			"description": "Your item to control the yeelight state (Switch Item)"
+
         }
     ]    
 }
